@@ -13,6 +13,7 @@ export default class Server {
     }
 
     public createServer() {
+        /* Critical solution 2 */
         http.createServer((req, res) => {
             this.incomingMessage = req;
             this.serverResponse = res;
