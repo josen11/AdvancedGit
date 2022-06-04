@@ -7,7 +7,7 @@ export default class Server {
     private incomingMessage: http.IncomingMessage;
     private serverResponse: http.ServerResponse
     private dataService: DataService;
-
+    /* Comment */
     constructor() {
         this.dataService = new DataService();
     }
