@@ -21,6 +21,7 @@ export default class Server {
     }
 
     private respond() {
+        /* Critical solution */
         const url = this.incomingMessage.url;
         switch (url) {
             case '/allemployees':
